@@ -1,8 +1,16 @@
-"""ОПА Х2"""
 def up_string(text):
     return text.upper()
-"""AXAXAХ"""
 
-input_string = "Привет, мир!"
-result = up_string(input_string)
+
+"""Большие буквы"""
+
+
+def title_word(word):
+    return word.title()
+
+
+"""Только первые буквы большие"""
+
+input_string = "привет, мир!"
+result = title_word(input_string)
 print(result)
